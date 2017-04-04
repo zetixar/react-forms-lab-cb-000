@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class TwitterMessage extends React.Component {
+export default class TwitterMessage extends React.Component {
   constructor() {
     super();
 
@@ -35,5 +35,3 @@ TwitterMessage.propTypes = {
 TwitterMessage.defaultProps = {
   maxChars: 140,
 };
-
-module.exports = TwitterMessage;

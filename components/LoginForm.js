@@ -1,6 +1,6 @@
-const React = require('react');
+import React from 'react';
 
-class LoginForm extends React.Component {
+export default class LoginForm extends React.Component {
   constructor() {
     super();
 
@@ -59,5 +59,3 @@ class LoginForm extends React.Component {
 LoginForm.propTypes = {
   onSubmit: React.PropTypes.func,
 };
-
-module.exports = LoginForm;
